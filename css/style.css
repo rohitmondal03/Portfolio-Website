@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 218, 218);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+/* NAVBAR */
+
+.navbar {
+    /* background-color: black; */
+    /* color: rgb(86, 214, 246); */
+    padding: 20px 0;
+    transition: 0.5s all;
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar-brand:hover {
+color: white;
+}
+
+.navbar .nav-item .nav-link{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    transition: 1s all;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color: rgb(251, 131, 131);
+    text-decoration: none;
+}
+
+.nav-item{
+    padding: 0 28px;
+}
+
+nav.r-nav.stickyadd{
+    background-color: rgb(0, 0, 0);
+    transition: 0.5 all ease-in-out;
+    padding: 15px 0;
+    /* box-shadow: 0px 1px 8px 10px rgb(66, 66, 66); */
+}
+
+nav.r-nav.stickyadd .navbar-brand{
+    color: white;
+}
+
+nav.r-nav.stickyadd .nav-item .nav-link{
+    color: white;
+}
+
+nav.r-nav.stickyadd .nav-item .nav-link:hover{
+    text-decoration: none;
+    color: rgb(164, 163, 163);
+}
+
+.navbar.stickyadd .navbar-brand{
+    color: black;
+    transition: 0.5s all;
+    font-size: 35px;
+}
+
+.navbar.stickyadd .navbar-nav .nav-link {
+    color: black;
+    transition: 0.5s all;
+    font-size: 25px;
+}
+
+.navbar .navbar-toggler-icon{
+    /* color: green; */
+    filter: invert(1);
+}
+
+.navbar.stickyadd .navbar-toggler-icon{
+    color: black;
+    filter: invert(0);
+}
+
+
+
+
+/* Header section */
+
+header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('../img/background.jpg')no-repeat center center/cover;
+    /* color: white; */
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box{
+    max-width: 700px;
+    color: #fff;
+}
+
+.content-box h4{
+    font-size: 30px;
+}
+
+.content-box h1{
+    font-size: 52px;
+}
+
+.content-box a{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 15px 10px;
+    padding: 10px 10px;
+}
+
+.content-box a:hover{
+    transition: 0.7s all;
+    /* font-size: 18px; */
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.content-box p{
+    color: white;
+}
+
+
+
+
+/* ABOUT SECTION */
+
+#about{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#about .row img{
+    max-width: 100%;
+    height: 36rem;
+}
+
+#about ul{
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+
+#about ul h1{
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+#about li a{
+    color: #000;
+    display: inline-block;
+    /* height: 100px;
+    width: 100px; */
+    font-size: 20px;
+    border: 1px solid block;
+    border-radius: 50%;
+    transition: 0.5s all;
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+#about li a:hover{
+   color: #EE8683;
+}
+
+#about h4{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#about h2 span{
+    font-weight: bolder;
+}
+
+
+
+
+
+/* EXPERIENCE SECTION */
+
+.exp-class{
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.exp-class .progress{
+    height: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.progress-bar{
+    background-color: #EE8683;
+}
+
+.exp-class label{
+    font-size: 25px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.exp-class h3{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+
+
+
+/* Qualifications */
+
+#res{
+    margin: 80px 20px;
+    text-align: center;
+}
+
+#res h1{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+/* Footer section */
+
+#footer{
+    background-color: rgb(44, 43, 43) !important;
+    color: white;
+}
+
+#footer .text-center{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#footer .text-center a{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    margin-bottom: 20px;
+}
+
+#footer .text-center a:hover{
+    text-decoration: underline;
+}
+
+#footer #contact p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
